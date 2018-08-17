@@ -34,6 +34,7 @@ void Matrix::printMatrix(){
 
 }
 
+//Turns the matrix into an Identity matrix.
 void Matrix::makeIdentity(){
 
     for(int i = 0; i < shape; i++){
@@ -44,4 +45,12 @@ void Matrix::makeIdentity(){
         }
     }
 
+}
+
+//Adds each element of the operand to the corresponding element in the base
+void Matrix::addRows(int base, int operand){
+
+    for(int i = 0; i < shape; i++){
+        matrix[base][i] = matrix[base][i] + matrix [operand][i];
+    }
 }
