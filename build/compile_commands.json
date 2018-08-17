@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build",
+  "command": "C:/Users/alexp/gcc/bin/g++.exe   @CMakeFiles/MatrixMath.dir/includes_CXX.rsp -g   -o CMakeFiles/MatrixMath.dir/src/Matrix.cpp.obj -c C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Matrix.cpp",
+  "file": "C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Matrix.cpp"
+},
+{
+  "directory": "C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build",
+  "command": "C:/Users/alexp/gcc/bin/g++.exe   @CMakeFiles/MatrixMath.dir/includes_CXX.rsp -g   -o CMakeFiles/MatrixMath.dir/src/main.cpp.obj -c C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/main.cpp",
+  "file": "C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/main.cpp"
+}
+]

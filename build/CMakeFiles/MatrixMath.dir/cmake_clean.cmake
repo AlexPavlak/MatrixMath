@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MatrixMath.dir/src/Matrix.cpp.o"
-  "CMakeFiles/MatrixMath.dir/src/main.cpp.o"
+  "CMakeFiles/MatrixMath.dir/src/Matrix.cpp.obj"
+  "CMakeFiles/MatrixMath.dir/src/main.cpp.obj"
   "MatrixMath.pdb"
-  "MatrixMath"
+  "MatrixMath.exe"
+  "MatrixMath.exe.manifest"
+  "libMatrixMath.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
