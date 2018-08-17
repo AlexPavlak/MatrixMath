@@ -22,6 +22,7 @@ void Matrix::fillRand(){
     }
 }
 
+//Used to print the contents of the matrix
 void Matrix::printMatrix(){
 
     for(int i = 0; i < shape; i++){
