@@ -38,11 +38,10 @@ void Matrix::makeIdentity(){
 
     for(int i = 0; i < shape; i++){
         for(int j = 0; j < shape; j++){
-            matrix[i][j] = 0;
+            if(i == j){
+                matrix[i][j] = 1;
+            } else matrix[i][j] = 0;
         }
     }
 
-    for(int i = 0; i < shape; i++){
-        matrix[i][i] = 1;
-    }
 }
