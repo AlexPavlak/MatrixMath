@@ -54,3 +54,11 @@ void Matrix::addRows(int base, int operand){
         matrix[base][i] = matrix[base][i] + matrix [operand][i];
     }
 }
+
+//Adds each element of the operand to the corresponding element in the base
+void Matrix::subRows(int base, int operand){
+
+    for(int i = 0; i < shape; i++){
+        matrix[base][i] = matrix[base][i] - matrix [operand][i];
+    }
+}

@@ -1,15 +1,17 @@
 #include <iostream>
 #include "Matrix.h"
-
+#include <vector>
 
 using namespace std;
 
 int main(){
-
+vector<vector<int> > testVector{{1,2,3},{2,4,6},{4,8,12}};
 Matrix matrix(3);
-Matrix I(3);
 
-matrix.fillRand();
+matrix.matrix = testVector;
+matrix.subRows(1,0);
+
+Matrix I(3);
 matrix.printMatrix();
 
 I.makeIdentity();
