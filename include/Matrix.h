@@ -15,5 +15,6 @@ class Matrix{
     void makeIdentity();
     void addRows(int base, int operand);
     void subRows(int base, int operand);
+    void multRows(int base, int multiplier);
     
 };

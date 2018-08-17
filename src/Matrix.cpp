@@ -62,3 +62,11 @@ void Matrix::subRows(int base, int operand){
         matrix[base][i] = matrix[base][i] - matrix [operand][i];
     }
 }
+
+void Matrix::multRows(int base, int multiplier){
+
+    for(int i = 0; i < shape; i++){
+        matrix[base][i] = matrix[base][i] * multiplier;
+    }
+
+}
