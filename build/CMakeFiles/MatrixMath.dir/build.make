@@ -71,10 +71,24 @@ CMakeFiles/MatrixMath.dir/src/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatrixMath.dir/src/Matrix.cpp.s"
 	cd C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build && C:/Users/alexp/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Matrix.cpp -o CMakeFiles/MatrixMath.dir/src/Matrix.cpp.s
 
+CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj: CMakeFiles/MatrixMath.dir/flags.make
+CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj: CMakeFiles/MatrixMath.dir/includes_CXX.rsp
+CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj: ../src/Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj"
+	cd C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build && C:/Users/alexp/gcc/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj -c C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Menu.cpp
+
+CMakeFiles/MatrixMath.dir/src/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatrixMath.dir/src/Menu.cpp.i"
+	cd C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build && C:/Users/alexp/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Menu.cpp > CMakeFiles/MatrixMath.dir/src/Menu.cpp.i
+
+CMakeFiles/MatrixMath.dir/src/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatrixMath.dir/src/Menu.cpp.s"
+	cd C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build && C:/Users/alexp/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Menu.cpp -o CMakeFiles/MatrixMath.dir/src/Menu.cpp.s
+
 CMakeFiles/MatrixMath.dir/src/main.cpp.obj: CMakeFiles/MatrixMath.dir/flags.make
 CMakeFiles/MatrixMath.dir/src/main.cpp.obj: CMakeFiles/MatrixMath.dir/includes_CXX.rsp
 CMakeFiles/MatrixMath.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MatrixMath.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MatrixMath.dir/src/main.cpp.obj"
 	cd C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build && C:/Users/alexp/gcc/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MatrixMath.dir/src/main.cpp.obj -c C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/main.cpp
 
 CMakeFiles/MatrixMath.dir/src/main.cpp.i: cmake_force
@@ -88,17 +102,19 @@ CMakeFiles/MatrixMath.dir/src/main.cpp.s: cmake_force
 # Object files for target MatrixMath
 MatrixMath_OBJECTS = \
 "CMakeFiles/MatrixMath.dir/src/Matrix.cpp.obj" \
+"CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj" \
 "CMakeFiles/MatrixMath.dir/src/main.cpp.obj"
 
 # External object files for target MatrixMath
 MatrixMath_EXTERNAL_OBJECTS =
 
 MatrixMath.exe: CMakeFiles/MatrixMath.dir/src/Matrix.cpp.obj
+MatrixMath.exe: CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj
 MatrixMath.exe: CMakeFiles/MatrixMath.dir/src/main.cpp.obj
 MatrixMath.exe: CMakeFiles/MatrixMath.dir/build.make
 MatrixMath.exe: CMakeFiles/MatrixMath.dir/linklibs.rsp
 MatrixMath.exe: CMakeFiles/MatrixMath.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MatrixMath.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MatrixMath.exe"
 	cd C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build && "C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/MatrixMath.dir/objects.a
 	cd C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build && C:/Users/alexp/gcc/bin/ar.exe cr CMakeFiles/MatrixMath.dir/objects.a @CMakeFiles/MatrixMath.dir/objects1.rsp
 	cd C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build && C:/Users/alexp/gcc/bin/g++.exe -g   -Wl,--whole-archive CMakeFiles/MatrixMath.dir/objects.a -Wl,--no-whole-archive  -o MatrixMath.exe -Wl,--out-implib,libMatrixMath.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/MatrixMath.dir/linklibs.rsp

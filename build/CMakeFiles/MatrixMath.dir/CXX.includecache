@@ -10,6 +10,10 @@
 vector
 -
 
+../include/Menu.h
+iostream
+-
+
 C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Matrix.cpp
 Matrix.h
 C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Matrix.h
@@ -18,6 +22,12 @@ stdlib.h
 iostream
 -
 vector
+-
+
+C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Menu.cpp
+Menu.h
+C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Menu.h
+iostream
 -
 
 C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/main.cpp

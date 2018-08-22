@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Matrix.cpp" "C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build/CMakeFiles/MatrixMath.dir/src/Matrix.cpp.obj"
+  "C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Menu.cpp" "C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build/CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj"
   "C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/main.cpp" "C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/build/CMakeFiles/MatrixMath.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

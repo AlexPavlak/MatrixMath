@@ -70,3 +70,15 @@ void Matrix::multRows(int base, int multiplier){
     }
 
 }
+
+void Matrix::swapRows(int row1,int row2){
+    int temp1;
+    int temp2;
+    for(int i = 0; i < shape; i++){
+        temp1 = matrix[row1][i];
+        temp2 = matrix[row2][i];
+
+        matrix[row1][i] = temp2;
+        matrix[row2][i] = temp1;
+    }
+}

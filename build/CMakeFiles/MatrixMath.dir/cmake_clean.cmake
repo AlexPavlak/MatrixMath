@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MatrixMath.dir/src/Matrix.cpp.obj"
+  "CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj"
   "CMakeFiles/MatrixMath.dir/src/main.cpp.obj"
   "MatrixMath.pdb"
   "MatrixMath.exe"

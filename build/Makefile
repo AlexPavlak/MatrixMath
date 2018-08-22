@@ -547,6 +547,33 @@ src/Matrix.cpp.s:
 	cd c:/users/alexp/desktop/projects/matrixmat2/matrixmath/build && $(MAKE) -f CMakeFiles/MatrixMath.dir/build.make CMakeFiles/MatrixMath.dir/src/Matrix.cpp.s
 .PHONY : src/Matrix.cpp.s
 
+src/Menu.obj: src/Menu.cpp.obj
+
+.PHONY : src/Menu.obj
+
+# target to build an object file
+src/Menu.cpp.obj:
+	cd c:/users/alexp/desktop/projects/matrixmat2/matrixmath/build && $(MAKE) -f CMakeFiles/MatrixMath.dir/build.make CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj
+.PHONY : src/Menu.cpp.obj
+
+src/Menu.i: src/Menu.cpp.i
+
+.PHONY : src/Menu.i
+
+# target to preprocess a source file
+src/Menu.cpp.i:
+	cd c:/users/alexp/desktop/projects/matrixmat2/matrixmath/build && $(MAKE) -f CMakeFiles/MatrixMath.dir/build.make CMakeFiles/MatrixMath.dir/src/Menu.cpp.i
+.PHONY : src/Menu.cpp.i
+
+src/Menu.s: src/Menu.cpp.s
+
+.PHONY : src/Menu.s
+
+# target to generate assembly for a file
+src/Menu.cpp.s:
+	cd c:/users/alexp/desktop/projects/matrixmat2/matrixmath/build && $(MAKE) -f CMakeFiles/MatrixMath.dir/build.make CMakeFiles/MatrixMath.dir/src/Menu.cpp.s
+.PHONY : src/Menu.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -617,6 +644,9 @@ help:
 	@echo "... src/Matrix.obj"
 	@echo "... src/Matrix.i"
 	@echo "... src/Matrix.s"
+	@echo "... src/Menu.obj"
+	@echo "... src/Menu.i"
+	@echo "... src/Menu.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -4,6 +4,9 @@
 CMakeFiles/MatrixMath.dir/src/Matrix.cpp.obj
  ../include/Matrix.h
  C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Matrix.cpp
+CMakeFiles/MatrixMath.dir/src/Menu.cpp.obj
+ ../include/Menu.h
+ C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/Menu.cpp
 CMakeFiles/MatrixMath.dir/src/main.cpp.obj
  ../include/Matrix.h
  C:/Users/alexp/Desktop/Projects/MatrixMat2/MatrixMath/src/main.cpp

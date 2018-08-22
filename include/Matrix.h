@@ -1,7 +1,6 @@
 #include <vector>
 
 using namespace std;
-
 class Matrix{
 
     public:
@@ -16,5 +15,6 @@ class Matrix{
     void addRows(int base, int operand);
     void subRows(int base, int operand);
     void multRows(int base, int multiplier);
+    void swapRows(int row1,int row2);
     
 };
