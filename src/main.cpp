@@ -17,6 +17,7 @@ matrix.printMatrix();
 I.makeIdentity();
 I.printMatrix();
 
-I.swapRows(2,1);
-I.printMatrix();
+if(I.isIdentity()){
+    cout << "isIdentity worked!" << endl;
+}
 }

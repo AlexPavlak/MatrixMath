@@ -72,8 +72,10 @@ void Matrix::multRows(int base, int multiplier){
 }
 
 void Matrix::swapRows(int row1,int row2){
+
     int temp1;
     int temp2;
+
     for(int i = 0; i < shape; i++){
         temp1 = matrix[row1][i];
         temp2 = matrix[row2][i];
@@ -81,4 +83,21 @@ void Matrix::swapRows(int row1,int row2){
         matrix[row1][i] = temp2;
         matrix[row2][i] = temp1;
     }
+}
+
+bool Matrix::isIdentity(){
+
+    for(int i = 0; i < shape; i++){
+    for(int j = 0; j < shape; j++){
+        if(i == j){
+
+            if((matrix[i][j] != 1)) return false;     
+               
+        } else if( matrix[i][j] != 0){
+
+                return false;
+        }
+    }
+    }
+    return true;
 }
