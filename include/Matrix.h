@@ -12,7 +12,9 @@ class Matrix{
     void fillRand();
     void printMatrix();
     void makeIdentity();
+    //adds operand to base
     void addRows(int base, int operand);
+    //subtracts operand from base
     void subRows(int base, int operand);
     void multRows(int base, int multiplier);
     void swapRows(int row1,int row2);

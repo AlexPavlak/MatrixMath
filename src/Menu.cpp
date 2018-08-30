@@ -24,13 +24,12 @@ void Menu::startMenu(Matrix* matrix){
             
             case 2: subPrompt(matrix);
             break;
-            /*
-            case 3: multPrompt();
+            
+            case 3: multPrompt(matrix);
             break;
-
-            case 4: swapPrompt();
+            
+            case 4: swapPrompt(matrix);
             break;
-            */
 
             default: break;
         }
@@ -47,6 +46,7 @@ void Menu::addPrompt(Matrix* matrix){
     cin >> row2;
 
     matrix->addRows(row1, row2);
+    matrix->printMatrix();
 
     return;
 }
@@ -61,6 +61,37 @@ void Menu::subPrompt(Matrix* matrix){
     cin >> row2;
 
     matrix->subRows(row1, row2);
+    matrix->printMatrix();
 
     return;
 }
+
+void Menu::multPrompt(Matrix* matrix){
+    int row;
+    int multiplier;
+
+    cout << "Which row do you want to be multiplied?" << endl;
+    cin >> row;
+    cout<< "What factor would you like it to be multiplied by?" <<endl;
+    cin >> multiplier;
+
+    matrix->multRows(row, multiplier);
+    matrix->printMatrix();
+
+    return;
+}
+
+void Menu::swapPrompt(Matrix* matrix){
+    int row1;
+    int row2;
+
+    cout << "Which rows do you want to swap?" << endl;
+    cin >> row1;
+    cin >> row2;
+
+    matrix->subRows(row1, row2);
+    matrix->printMatrix();
+
+    return;
+}
+

@@ -8,4 +8,6 @@ class Menu{
    void startMenu(Matrix*);
    void addPrompt(Matrix*);
    void subPrompt(Matrix*);
+   void multPrompt(Matrix*);
+   void swapPrompt(Matrix*);
 };
