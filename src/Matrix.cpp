@@ -24,7 +24,7 @@ void Matrix::fillRand(){
 
 //Used to print the contents of the matrix
 void Matrix::printMatrix(){
-
+    cout << "This is what the matrix looks like:"<< endl;
     for(int i = 0; i < shape; i++){
         for(int j = 0; j < shape; j++){
             cout << matrix[i][j] << " ";
